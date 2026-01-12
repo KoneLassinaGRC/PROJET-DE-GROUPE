@@ -1,0 +1,46 @@
+NetFlow-Optimizer-ALC2101/
+│
+├── README.md
+│
+├── docs/                   # Documentation
+│   ├── rapport.pdf
+│   ├── presentation.pptx
+│   └── demo_video.mp4
+│
+├── src/                    # Code source
+│   ├── main.c
+│   │
+│   ├── graph/              # Gestion des graphes
+│   │   ├── graph.h
+│   │   └── graph.c
+│   │
+│   ├── routing/            # Algorithmes de routage
+│   │   ├── dijkstra.c
+│   │   ├── bellman_ford.c
+│   │   └── routing.h
+│   │
+│   ├── constraints/        # Chemins avec contraintes
+│   │   ├── backtracking.c
+│   │   └── constraints.h
+│   │
+│   ├── security/           # Analyse de sécurité
+│   │   ├── security.c
+│   │   └── security.h
+│   │
+│   ├── queue/              # Files de paquets
+│   │   ├── priority_queue.c
+│   │   └── queue.h
+│   │
+│   └── utils/              # Fonctions utilitaires
+│       ├── utils.c
+│       └── utils.h
+│
+├── data/                   # Fichiers d’entrée
+│   └── network.txt
+│
+├── tests/                  # Tests unitaires
+│   ├── test_graph.c
+│   └── test_routing.c
+│
+└── Makefile                # Compilation
+
