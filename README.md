@@ -11,7 +11,24 @@ Le réseau est modélisé sous forme de graphe pondéré et permet :
 - la gestion de files de paquets,
 - la recherche de chemins sous contraintes.
 
----
+
+## Répartition des tâches  
+  
+Rôle     	                   Responsabilités	                         Membre
+
+Chef de projet	         Coordination, intégration, Git	               KONE LASSINA 
+
+Architecte	             Conception globale, structures	              KAMAGATE ISMAILA AMED
+
+Dev Graphes             	Module 1	                                  KAMAGATE ISMAILA AMED
+
+Dev Routage	              Module 2	                                  KAMAGATE ISMAILA AMED
+
+Dev Sécurité	            Module 3	                                  KONE LASSINA
+
+Dev Files	                Module 4	                                  Dosso Sindou
+
+Testeur/Doc	              Tests, rapport, slides	                    KIMOU KONAN HENRI-MICHEL
 
 ## 🎯 Objectifs pédagogiques
 - Maîtriser les structures de données (graphes, listes, files)
